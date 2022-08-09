@@ -331,6 +331,7 @@ header ul li:last-of-type a {
 .pre_footer_container {
     max-width: 571px;
     margin: auto;
+    text-align: center;
 
 }
 
@@ -357,7 +358,7 @@ header ul li:last-of-type a {
 
 
 .pre_footer_container a {
-    padding: 9px 0 13px 0;
+    padding: 9px 10px 13px 0;
     background-color: #FFFFFF;
     font-family: 'Poppins';
     font-style: normal;
@@ -369,9 +370,8 @@ header ul li:last-of-type a {
     color: #000000;
     border-radius: 14px;
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
 }
 
 .pre_footer_container a:before {
@@ -380,5 +380,5 @@ header ul li:last-of-type a {
     height: 21px;
     width: 21px;
     border-radius: 50%;
-    margin: 0 4px 0 4px;
+    margin: 0 5px 0 5px;
 }
