@@ -1,0 +1,49 @@
+@media screen and (max-width: 992px) {
+    header {
+        padding: 24px 15px;
+    }
+    .what_we_do .d-flex {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    header ul li {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    }
+    .main_banner {
+        height: 75vh;
+    }
+    .footer_row_2 {
+        display: block;
+    }
+    .past_clients_container {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    .what_we_do .d-flex {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
