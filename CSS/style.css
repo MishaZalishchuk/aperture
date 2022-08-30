@@ -30,7 +30,7 @@ header .header_container {
 .logo {
     display: inline-block;
     position: absolute;
-    left: 30px;
+    left: 150px;
     top: 30px
 }
 
@@ -42,7 +42,7 @@ header ul {
 
 header nav li a {
     font-family: 'Poppins';
-    padding-top: 11px;
+    /*padding-top: 11px;*/
     font-size: 13px;
     color: #FFFFFF;
     display: inline-block;
@@ -50,7 +50,6 @@ header nav li a {
 }
 
 header ul li {
-    margin-left: 32px;
     transition: 0.7s;
 }
 
@@ -63,7 +62,7 @@ header ul li:last-of-type a {
     background-color: #FFFFFF;
     border-radius: 14px;
     display: inline-block;
-    width: 155px;
+    width: 150px;
 }
 
 .main_banner {
@@ -778,7 +777,7 @@ nav .nav-links .hover-el {
     transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
     pointer-events: none;
     z-index: 5; }
-nav .sub-menu {
+/*nav .sub-menu {
     --link-height: 60px;
     position: absolute;
     top: 50%;
@@ -833,7 +832,7 @@ nav .sub-menu-btn .line__1 {
     transform: rotate(-35deg) translate(-1px, 8px); }
 nav .sub-menu-btn .line__2 {
     transform-origin: left;
-    transform: rotate(35deg) translate(-1px, -8px); }
+    transform: rotate(35deg) translate(-1px, -8px); }*/
 nav .menu-btn {
     display: none;
     justify-content: center;
