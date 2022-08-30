@@ -7,12 +7,6 @@
     }
 }
 
-@media screen and (max-width: 815px) {
-    header ul li {
-        margin-left: 10px;
-    }
-}
-
 @media screen and (max-width: 768px) {
 
 }
@@ -44,6 +38,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    header ul li {
+        margin-left: 10px;
+    }
     nav .menu-btn {
         display: flex;
     }
@@ -59,6 +57,53 @@
     .logo {
         top: 55px;
     }
-    
+
+    nav .nav-links {
+        display: block;
+    }
 
 }
+
+@media screen and (min-width: 1024px) {
+    nav {
+        position: absolute;
+    }
+    nav .nav-links {
+        position: absolute;
+        top: 10px;
+        right: 450px;
+    }
+
+    header ul li a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    header ul li:first-child a {
+        font-size: 13px;
+        width: 150px;
+    }
+
+    header ul li:nth-child(2) a {
+        width: 150px;
+    }
+
+    header ul li {
+        margin-left: 32px;
+    }
+
+    header ul li:nth-child(2) {
+        margin-left: 56px;
+    }
+
+    header ul li:last-of-type {
+        margin-left: 31px;
+    }
+
+
+}
+

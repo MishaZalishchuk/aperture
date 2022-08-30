@@ -54,19 +54,6 @@ header ul li {
     transition: 0.7s;
 }
 
-/*header ul li {
-    margin-left: 32px;
-}
-
-header ul li:nth-child(2) {
-    margin-left: 56px;
-}
-
-header ul li:last-of-type {
-    margin-left: 31px;
-}*/
-
-
 header ul li:last-of-type a {
     font-family: 'Poppins';
     padding: 9px 20px 13px 20px;
@@ -76,6 +63,7 @@ header ul li:last-of-type a {
     background-color: #FFFFFF;
     border-radius: 14px;
     display: inline-block;
+    width: 155px;
 }
 
 .main_banner {
@@ -755,7 +743,10 @@ nav a {
 nav .nav-links {
     --link-height: 60px;
     position: relative;
-    width: 100%; }
+    width: 100%;
+    display: flex;
+}
+
 nav .nav-links li {
     display: flex;
     justify-content: center;
