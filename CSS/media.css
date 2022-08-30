@@ -18,9 +18,6 @@
 }
 
 @media screen and (max-width: 767px) {
-    nav {
-        display: none;
-    }
     .main_banner {
         height: 75vh;
     }
@@ -38,12 +35,30 @@
         padding-right: 15px;
         padding-left: 15px;
     }
+    nav {
+        width: 100%;
+    }
+    nav.nav-open .menu-btn {
+        left: 80%;
+    }
 }
 
-@media screen and (max-width: 360px) {
-
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+    nav .menu-btn {
+        display: flex;
+    }
+    nav {
+        transform: translateX(100%);
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(20px);
+    }
+    nav .nav-links li {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    .logo {
+        top: 55px;
+    }
+    
 
 }
