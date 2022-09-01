@@ -1,0 +1,52 @@
+$main_font: 'Poppins';
+$main_color: #000000;
+$grey_color: #C0C0C0;
+$white_color: #FFFFFF;
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+.past_clients_banner {
+  padding: 113px 0 140px 0;
+  background-color: black;
+  @include max-screen(767px) {
+    flex-direction: column;
+  }
+  h2 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: $white_color;
+  }
+  p {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: $grey_color;
+    padding-top: 15px;
+  }
+  .past_clients_container {
+    display: flex;
+    max-width: 1076px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 82px;
+      a {
+      display: inline-block;
+      max-width: 128px;
+    }
+  }
+}
+

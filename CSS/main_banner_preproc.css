@@ -1,0 +1,46 @@
+.main_banner {
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 71px;
+}
+@media screen and (max-width: 767px) {
+  .main_banner {
+    height: 75vh;
+  }
+}
+.main_banner .container_1 {
+  max-width: 580px;
+}
+.main_banner .container_1 h3 {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+.main_banner .container_1 h1 {
+  font-family: "Poppins";
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.main_banner .container_1 p {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-top: 18px;
+}
+
+/*# sourceMappingURL=main_banner_preproc.css.map */

@@ -1,0 +1,110 @@
+$main_font: 'Poppins';
+$main_color: #000000;
+$white_color: #FFFFFF;
+$grey_color: #C0C0C0;
+
+.overview_banner_1 {
+  background-image: url("../images/background_2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 60vh;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;
+  padding-right: 64px;
+  .overview_container_1 {
+    max-width: 298px;
+    h3 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $white_color;
+    }
+    p {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: $grey_color;
+    }
+  }
+}
+
+
+.overview_banner_2{
+  background-image: url("../images/background_3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 60vh;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;
+  padding-right: 87px;
+  .overview_container_2 {
+    max-width: 273px;
+    h3 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $white_color;
+    }
+    p {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: $grey_color;
+    }
+  }
+}
+
+.overview_banner_3 {
+  background-image: url("../images/background_4.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 60vh;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 119px;
+  .overview_container_3 {
+    max-width: 241px;
+    h3 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $white_color;
+    }
+    p {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: $grey_color;
+    }
+  }
+}

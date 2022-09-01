@@ -1,0 +1,54 @@
+$main_font: 'Poppins';
+$main_color: #000000;
+$grey_color: #C0C0C0;
+$white_color: #FFFFFF;
+
+
+.fixed_information {
+  position: absolute;
+  bottom: 41px;
+  right: 40px;
+  li {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+    &:before {
+      content: "";
+      background-image: url("../images/ico_1.svg");
+      width: 16px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+    &:nth-child(2):before {
+      content: "";
+      background-image: url("../images/ico_2.svg");
+      width: 16px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+    &:nth-child(3):before {
+      content: "";
+      background-image: url("../images/ico_3.svg");
+      width: 32px;
+      height: 16px;
+      display: block;
+      margin-right: 7px;
+    }
+    &:last-of-type:before {
+      content: "";
+      background-image: url("../images/ico_4.svg");
+      width: 10px;
+      height: 16px;
+      display: block;
+      margin-right: 5px;
+    }
+  }
+}
+
+

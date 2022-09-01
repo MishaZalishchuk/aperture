@@ -1,0 +1,42 @@
+.past_clients_banner {
+  padding: 113px 0 140px 0;
+  background-color: black;
+}
+@media screen and (max-width: 767px) {
+  .past_clients_banner {
+    flex-direction: column;
+  }
+}
+.past_clients_banner h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.past_clients_banner p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  padding-top: 15px;
+}
+.past_clients_banner .past_clients_container {
+  display: flex;
+  max-width: 1076px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 82px;
+}
+.past_clients_banner .past_clients_container a {
+  display: inline-block;
+  max-width: 128px;
+}
+
+/*# sourceMappingURL=past_clients_banner_preproc.css.map */
